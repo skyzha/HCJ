@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.header nav {
+    background-color: #6002ee;
+    padding: 1em 0;
+    overflow: hidden;
+}
+
+.header nav a {
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    color: #0000ba;
+    background-color: #9c47ff;
+}
+
+.home {
+    padding: 5%;
+    box-sizing: border-box;
+    text-align: center
+}
+
+.home img {
+    width: 25%;
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.home div:nth-child(2) {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.home div:last-child {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main .about {
+    padding: 5%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.about img.round {
+    border-radius: 50%;
+    width: 25%;
+}
+.about .slide header {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.slide {
+    display: none;
+    min-height: 25vh;
+    max-height: 50vh;
+}
+
+.slide .profile, .slide .education, .slide .skill {
+    font-size: 2rem;
+}
+
+.about .move button {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.about .move button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #4CAF50;
+    border: 3px solid #4CAF50;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #008CBA;
+    border: 3px solid #008CBA;
+}
+
+.contact {
+    padding : 15%;
+}
+
+div.menu-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .header nav a {
+        display: none;
+    }
+
+    div.menu-mobile {
+        display: block;
+        background-color: #6002ee;
+        overflow: hidden;
+    }
+
+    div.menu-mobile a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 0.1em;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    .home div:nth-child(2) {
+        font-size: 2rem;
+    }
+    
+    .home div:last-child {
+        font-size: 1.5rem;
+    }
+
+    .about .slide header {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .slide .profile, .slide .education, .slide .skill {
+        font-size: 1rem;
+    }
+    
+    .about .move button {
+        font-size: 0.5rem;
+        padding: 0.3rem;
+    }
+}

@@ -1,0 +1,46 @@
+.scene {
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+    border: 1px solid black;
+}
+/* 
+.cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.cube__face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+} */
+
+
+div.luar {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    perspective: 150px;
+}
+
+div.dalam {
+    padding: 50px;
+    position: absolute;
+    border: 2px solid black;
+    background-color: #FAC100;
+    transform: rotateX(40deg);
+}
+
+div.dalam2 {
+    padding: 50px;
+    position: absolute;
+    border: 2px solid black;
+    background-color: #FAC100;
+    transform: rotateX(80deg);
+}

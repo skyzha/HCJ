@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About me</a>
+            <div class="menu-mobile">
+                <a href="index.html">Home</a>
+                <a href="about.html">About me</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="about">
+            <img src="asset/img/me.png" alt="" class="round">
+            <div class="slide">
+                <div class="profile">
+                    <header>Objective</header>
+                    To become a professional developer who can adapt to any environtment and willing to learn new technologies
+                </div>
+            </div>
+            <div class="slide">
+                <div class="education">
+                    <header>Education</header>
+                    Bachelor's Degree in Informatics Engineering <br />
+                    Universitas Serang Raya
+                </div>
+            </div>
+            <div class="slide">
+                <div class="skill">
+                    <header>Skill</header>
+                    HTML CSS <br />
+                    Javascript
+                </div>
+            </div>
+            <div class="slide">
+                <header>Contact</header>
+                <a href="mailto:rezapermana.aqi@gmail.com">
+                        <img src="asset/img/gmail.png" alt="" width=70 height=60>
+                </a>
+                <a href="linkedin.com/in/zhasky">
+                    <img src="asset/img/linkedin.png" alt="" width=70 height=60>
+                </a>
+            </div>
+            <div class="move">
+                <button onClick="moveSlide(-1)" class="btn-blue">Previous</button>
+                <button onClick="moveSlide(1)" class="btn-green">Next</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
